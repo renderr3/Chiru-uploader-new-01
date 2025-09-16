@@ -49,8 +49,8 @@ token_cp = "eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJpZCI6MTIxMzgyNjMyLCJvcmdJZCI
 
 
 import random
-
-# Inline keyboard for start command
+await asyncio.sleep(1)
+    if m.chat.id in AUTH_USERS:
 keyboard = InlineKeyboardMarkup(
     [
         [
